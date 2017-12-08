@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QRcodeDemo</string>
+    <string name="capture_tip">请将条码置于取景框内扫描</string>
+    <string name="scan_text">请将条码置于取景框内扫描</string>
+    <string name="scanDialogTitle">条码内容</string>
+    <string name="sure">确定</string>
+</resources>

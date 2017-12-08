@@ -1,0 +1,195 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_only"
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+            android:layout_gravity="center_horizontal" />
+        <!-- 姓名 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名" />
+
+            <EditText
+                android:id="@+id/et_only_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="必填" />
+        </LinearLayout>
+
+        <!-- 公司 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="公司" />
+
+            <EditText
+                android:id="@+id/et_only_company"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="选填" />
+        </LinearLayout>
+
+        <!-- 职位 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职位" />
+
+            <EditText
+                android:id="@+id/et_only_position"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="选填" />
+        </LinearLayout>
+
+        <!-- 电话 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话" />
+
+            <EditText
+                android:id="@+id/et_only_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="选填" />
+        </LinearLayout>
+        <!-- 邮箱 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮箱" />
+
+            <EditText
+                android:id="@+id/et_only_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="选填" />
+        </LinearLayout>
+
+        <!-- 网址 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网址" />
+
+            <EditText
+                android:id="@+id/et_only_web1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="http://" />
+        </LinearLayout>
+
+        <!-- 地址 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地址" />
+
+            <EditText
+                android:id="@+id/et_only_add"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="选填" />
+        </LinearLayout>
+
+        <!-- 备注 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注" />
+
+            <EditText
+                android:id="@+id/et_only_note"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="选填" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+            android:text="生成名片" />
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
